@@ -130,10 +130,16 @@ This repository is licensed under the MIT License. See the LICENSE file for deta
 
 ## Acknowledgements
 
-**EPFL Courses:**  
+**EPFL Courses**  
 This collection is heavily inspired by the courses I took at EPFL in my first year:
 - [Programmation Orientée Projet - COM-112-A](https://edu.epfl.ch/studyplan/fr/propedeutique/genie-electrique-et-electronique/coursebook/programmation-orientee-projet-COM-112-A)
 - [Information, Calcul, Communication - CS-119-C](https://edu.epfl.ch/studyplan/fr/propedeutique/genie-electrique-et-electronique/coursebook/information-calcul-communication-CS-119-C)
+
+Additionally, these **EPFL-created** Coursera MOOCs were **mandatory components of the course** and contributed to my learning:
+- [Initiation à la programmation en C++](https://www.coursera.org/learn/initiation-programmation-cpp)  
+- [Programmation Orientée Objet en C++](https://www.coursera.org/learn/programmation-orientee-objet-cpp)
+
+
 
 **Inspiration:**  
 Thanks to the many C++ resources and the vibrant programming community that have helped shape my understanding over the years.
