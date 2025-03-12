@@ -1,0 +1,70 @@
+//Nom du Fichier
+//Description
+#ifndef __NOM_UNIQUE__ //nom du fichier p.ex.
+#define __NOM_UNIQUE__
+//les fichier includes
+class NomClasse
+{
+	//=== Déclaration des "amies":classes, methodes et fonctions
+		friend	ostream	&operator<<(ostream & out ,const NomClasse& arg);
+		friend	istream	&operator>>(istream & in NomClasse& arg);
+		//autres "amies".
+		//...
+	//=== Données membres/Attibuts de la classe.
+	private:
+		//Attibuts/données membres de la classe private
+		//inaccessibles depuis l'exterieur
+		//(accessibles aux "amies":classes, methodes et fonctions)
+	protected:
+		//Attibuts/données membres de la classe protected
+		//accessible uniquement aux classes derivées de cette classe
+		//(et aux "amies":classes, methodes et fonctions)
+	public:
+		//Attibuts/données membres de la classe	public
+		//accessibles pour tous.		
+	//=== Fonctions membres/Méthodes de la classe
+	private:
+	protected:
+	public:
+		//=== Constructeurs
+		NomClasse();
+		NomClasse(type1 parametre1,....);
+		NomClasse(const NomClasse &arg);
+		
+		//=== Destructeur (Un seul)
+		virtual ~NomClasse();//virtual en cas d'heritage ...
+		
+		//surcharge de l'operateur "=".
+		//(surtout si certaines données membres sont des pointeurs.)
+		NomClasse&	operator=(const NomClasse& arg);
+		
+		//autres méthodes publics
+		TypeRetour NomMethode(Type Param.,T P, ....);
+		virtual TypeRetour NomMethodePolyMorphe(Type Param.,T P, ....);
+		//autres méthodes ...
+
+};
+//============================
+// Constructeur(s)
+// Servent à initialiser l'Objet
+//============================
+NomClasse::NomClasse(Type Param.,T P, ....)
+{
+	[new pour les données membres de type pointeurs]
+}
+//============================
+// Destructeur
+// Sert à Nettoyer l'Objet
+//============================
+NomClasse::~NomClasse()
+{
+	[delete toutes les données membres de type pointeurs]
+}
+//============================
+//
+//============================
+TypeRetour NomClasse::NomMethode(Type Param.,T P, ....)
+{
+	[return(valeur);]
+}
+#endif
