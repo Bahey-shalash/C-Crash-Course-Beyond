@@ -82,11 +82,14 @@ To begin using this repository, follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/Cplusplus-Learning-Collection.git
+   git clone https://github.com/Bahey-shalash/Cpp-Crash-Course-Beyond.git
    cd Cplusplus-Learning-Collection
    ```
 
 2. **Compile an Example:**
+
+   You can use **any standard C++ compiler** (such as `g++` or `clang++`) to compile the examples.  
+   If a minimum C++ version is required for a specific example, it will be mentioned in the code comments.
 
    For instance, to compile the introduction to exceptions example:
 
@@ -94,7 +97,13 @@ To begin using this repository, follow these steps:
    clang++ -std=c++23 11/1_IntroductionToExceptions.cpp -o intro_exceptions
    ./intro_exceptions
    ```
+   
+   If you're using g++, you can run:
 
+   ```bash
+   g++ -std=c++23 11/1_IntroductionToExceptions.cpp -o intro_exceptions
+   ./intro_exceptions
+   ```
 ---
 
 ## Usage & Examples
